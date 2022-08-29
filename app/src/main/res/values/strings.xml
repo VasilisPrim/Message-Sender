@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Message Sender</string>
+    <string name="target">Πληκτρολογήστε αριθμό ή διεύθυνση email</string>
+    <string name="subject">Πληκτρολογήστε το μήνυμά σας</string>
+    <string name="sendSMS">Αποστολή SMS</string>
+    <string name="sendMail">Αποστολή e-mail</string>
+    <string name="clean">Καθαρισμός</string>
+</resources>

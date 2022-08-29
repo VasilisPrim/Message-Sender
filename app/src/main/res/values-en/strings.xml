@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Message Sender</string>
+    <string name="target">Type a number or email address</string>
+    <string name="subject">Type your message</string>
+    <string name="sendSMS">Send sms</string>
+    <string name="sendMail">Send e-mail</string>
+    <string name="clean">Clean</string>
+</resources>

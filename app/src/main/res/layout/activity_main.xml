@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/target"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0A33C3"
+
+        />
+
+    <EditText
+        android:id="@+id/sendTextTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="60dp"
+        android:background="#E2DFE6"
+        android:textColor="@color/black"
+
+        />
+    <TextView
+        android:layout_below="@+id/sendTextTo"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subject"
+        android:textColor="#E68849"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+
+    <EditText
+
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:background="#D4EDB8"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:text="@string/sendSMS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#85C0EF"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/email"
+        android:layout_toRightOf="@+id/sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:text="@string/sendMail"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#85C0EF"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_toRightOf="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:text="@string/clean"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:backgroundTint="#F6CBCB"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>
+
+
